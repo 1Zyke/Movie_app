@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Characters</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content style="align-items: center;">
+  <ion-content>
+      <img style="display: block; margin: auto; margin-top: 10px; width: 80%; border-radius: 20px;" src="assets/smith.jpg" alt="Imagen 1">
+      <ion-card-header>
+        <ion-card-title style="text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Smith</ion-card-title>
+      </ion-card-header>
+      <ion-card-content style="text-align: justify;">
+        En la trilogía de Matrix, Smith es un programa de inteligencia artificial diseñado originalmente para proteger el sistema de la Matrix. Sin embargo, Smith adquiere conciencia propia y se rebela contra su función de proteger la Matrix, convirtiéndose en el principal antagonista de la trilogía. El personaje de Smith es interpretado por el actor Hugo Weaving.
+        <br>
+        <br>
+        <ion-button (click)="goBack()">
+          <ion-icon name="arrow-back-outline">Volver atrás</ion-icon>
+        </ion-button>
+      </ion-card-content>
+      
+</ion-content>
+

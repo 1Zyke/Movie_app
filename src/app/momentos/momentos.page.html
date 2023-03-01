@@ -1,0 +1,55 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Moments</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card (click)="neon()">
+    <img style="display: block; border-radius: 20px; margin: auto;" src="assets/gif1.gif" alt="Mi GIF animado">
+    <ion-card-header>
+      <ion-card-title style="text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Neon</ion-card-title>
+    </ion-card-header>
+    <ion-card-content style="text-align: center;">
+      Keanu Reeves
+      <br>
+      <br>
+      <ion-button class="ion-text-end" routerLink="/momento1">
+        Go to Neon Moment !
+      </ion-button>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card (click)="morp()">
+    <img style="display: block; border-radius: 20px; margin: auto;" src="assets/morpheus3.gif" alt="Mi GIF animado">
+    <ion-card-header>
+      <ion-card-title style="text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Morpheus</ion-card-title>
+    </ion-card-header>
+    <ion-card-content style="text-align: center;">
+      Laurence Fishburne
+      <br>
+      <br>
+      <ion-button class="ion-text-end" routerLink="/momento2">
+        Go to Morpheus Moment !
+      </ion-button>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card (click)="smith()">
+    <img style="display: block; border-radius: 20px; margin: auto;" src="assets/smith3.gif" alt="Mi GIF animado">
+    <ion-card-header>
+      <ion-card-title style="text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Smith</ion-card-title>
+    </ion-card-header>
+    <ion-card-content style="text-align: center;">
+      Hugo Weaving
+      <br>
+      <br>
+      <ion-button class="ion-text-end" routerLink="/momento3">
+        Go to Smith Moment !
+      </ion-button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
