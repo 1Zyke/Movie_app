@@ -7,7 +7,7 @@ Including Angular on it...
 
 Exact .apk route: .\tarea5-new\android\app\build\outputs\apk\debug
 
-Requerimientos:
+Requirements:
 
 Make an application in whatever you prefer dedicated to your favorite series or movie, it should have a main screen with the image of your series, add the following options:
 
