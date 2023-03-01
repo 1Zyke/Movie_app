@@ -1,5 +1,5 @@
 # Movie_app
-I created an awesome movie app with Ionic including Angular on it. 
+I CREATED AN AWESOME MOVIE APP WITH IONIC including Angular on it.
 
 .apk file is compressed in the project in android folder.
 
